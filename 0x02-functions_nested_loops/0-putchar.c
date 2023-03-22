@@ -8,7 +8,7 @@
  * Return: always 0
  */
 
-int main(void) 
+int main(void)
 {
 	char str[] = "_putchar";
 	int ch;
@@ -17,8 +17,6 @@ int main(void)
 		_putchar(str[ch]);
 	_putchar('\n')
 
-	return (0);	
+	return (0);
 
 }
-
-
