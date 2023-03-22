@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * times_table - prints the 9 times table
@@ -15,6 +15,9 @@ void times_table(void)
 
 	for (num =0; num <= 9; num++)
 	{
+		_putchar(48);
+		for (mult = 1; mult <= 9; mult++)
+	{
 		_putchar('.');
 		_purchar(' ');
 
@@ -25,11 +28,12 @@ void times_table(void)
 		 * place the first digit if its two numbers
 		*/
 	       if (pord <= 9)
-	       		_putchar(' ');
+	       	       _putchar(' ');
 	       else
 			_putchar((prod / 10) + 48); /*get the first digit*/
 		
 	       _putchar((prod /10) + 48); /*get the second digit*/
 	}
 	_putchar('\n');
+	}
 }
