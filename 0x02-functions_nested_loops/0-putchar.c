@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *main - Entry point
-*Descriptin:'prints _putcher to stdout'
+*Descriptin:'prints_putcher to stdout'
 *Return: always 0
 */
 int main(void)
