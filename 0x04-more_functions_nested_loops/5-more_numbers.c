@@ -4,7 +4,7 @@
  * more_numbers - print 0 - 14 tan times and you
  *		can only use _putchar three times
  *
- *Return: Always 0 (success)
+ * Return: Always 0 (success)
 */
 
 void more_numbers(void);
