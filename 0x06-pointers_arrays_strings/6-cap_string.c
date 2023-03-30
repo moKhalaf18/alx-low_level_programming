@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * isLower - determines whether ascil is lowercase
+ * isLower - determines wbether ascil is lowercase
  * @c: character
  * Return: 1 if true, 0 if false
 */
@@ -13,16 +13,16 @@ int isLower(char c)
 }
 
 /**
- * isDelimiter - determines whether ascil is a delimiter
+ * isDelimiter - determines wbether ascil is a delimiter
  * @c: character
- * Retuen: 1 if ture, 0 if false
+ * Retuen: 1 if true, 0 if false
 */
 
 int isDelimiter(char c)
 {
 
 	int i;
-	char delimiter[] = " \t\n, .!?\"()[]";
+	char delimiter[] = " \t\n,.!?\"()[]";
 
 	for (i = 0; i < 12; i++)
 		if (c == delimiter[i])
