@@ -36,14 +36,14 @@ int isDelimiter(char c)
  * Return: string with capitalized words
 */
 
-char cap_string(char *s)
+char *cap_string(char *s)
 {
 	char *ptr = s;
 	int foundDelimit = 1;
 
 	while (*s)
 	{
-		if (Delimiter(*s))
+		if (isDelimiter(*s))
 			foundDelimit = 1;
 		else if (isLower(*s) && foundDelimit)
 		{
