@@ -22,7 +22,7 @@ char *_strcat(char *dest, char *src)
 	/* iterate through each src array value without the null type*/
 	for (c2 = 0; src[c2] ; c2++)
 		/*append src[c2] to dest[c] while overwritting the null type in dest*/
-		dest[c++] = src [c2];
+		dest[c++] = src[c2];
 
 	return (dest);
 }
