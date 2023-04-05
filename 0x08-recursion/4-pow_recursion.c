@@ -8,6 +8,7 @@
  * or NULL if no such byte is found.
 */
 
+
 int _pow_recursion(int x, int y)
 {
 
