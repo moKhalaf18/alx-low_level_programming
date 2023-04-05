@@ -16,7 +16,7 @@ int is_prime_number(int n)
 /**
  * check_prime - check all number < n if they can divide it
  * @n: int
- * @othrn: int
+ * @orthn: int
  * Return: int
 */
 
