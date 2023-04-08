@@ -6,12 +6,11 @@
  * @argc: numbur of arguments
  * @argv: array of argumrnts
  *
- * Return: 0
-*/
-
+ * Return: always 0 (success)
+ */
 int main(char argc__attribute__((unused)), char *argv[])
 {
-	printf("%s\n", argv[0]);
-	
+	printf("%s\n", *argv[0]);
+
 	return (0);
 }
