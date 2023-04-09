@@ -2,11 +2,11 @@
 
 /**
  * main - prints program name, followed by a new line
- * @argc: numbur of arguments
- * @argv: array of argumrnts
- *
- * Return: always 0 (success)
+ * @argc: int
+ * @argv: list
+ * Return: 0
  */
+
 int main(int argc, char const *argv[])
 {
 	(void)argc;
