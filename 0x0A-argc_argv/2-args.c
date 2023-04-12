@@ -1,8 +1,8 @@
-#include "stdio.h"
+#include <stdio.h>
 
 /**
  * main - Entry point
- * Description: Prints the number of arguements passed
+ * Description: Prints all arguments it receives
  * @argc: No of command line arguments
  * @argv: Array name
  * Return: 0
@@ -10,7 +10,11 @@
 
 int main(int argc, char *argv[])
 {
-	(void) argv; /*ignore argv*/
-	printf("%d\n", argc - 1);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
 	return (0);
 }
